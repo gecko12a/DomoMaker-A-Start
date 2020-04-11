@@ -49,13 +49,41 @@ nav:nth-child(1) {
 
 .domoForm {
     border: 2px solid #338acc;
-    height: 35px;
-    width: 700px;
+    height: 50px;
+    width: 780px;
     margin-top:0px;
     padding-top:10px;
     background-color: #55acee;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
+}
+
+#list{
+    margin-top: 10px;
+    padding-top: 10px;
+float: left
+}
+#range{
+    margin-top: 10px;
+    padding-top: 10px;
+    float: left
+}
+
+#radiol{
+    margin-top: 4px;
+    float: left
+}
+
+#radior{
+    margin-top: 4px;
+    float: left
+}
+
+
+#radio {
+    margin-top: 10px;
+    padding-top: 10px;
+    float: left;
 }
 
 .domoForm label {
@@ -79,6 +107,7 @@ nav:nth-child(1) {
     border-radius: 2px;
     color: white;
     text-decoration: none;
+    margin-left: 30px;
 }
 
 .makeDomoSubmit:link, .makeDomoSubmit:visited, .makeDomoSubmit:hover, .makeDomoSubmit:active {
@@ -253,10 +282,51 @@ h3.domoAge {
     font-size: 1.5em;
 }
 
+h3.domoColor {
+    float:right;
+    text-align: left;
+    width: 100px;
+    font-weight: bold;
+    padding-right: 40px;
+    font-size: 1.5em;
+}
 .domo:first-child {
     margin-top: 10px;
 }
 
 .domo:last-child {
     margin-bottom:10px;
+}
+
+
+
+.domo2 {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    min-height:60px;
+    overflow: hidden;
+}
+
+h3.domoName2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+h3.domoAge2 {
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+img.domoFace2 {
+    height: 50px;
+    width: 50px;
+    border: 25px solid #55acee;
+    border-radius: 4px;
+    margin-top:5px;
 }
